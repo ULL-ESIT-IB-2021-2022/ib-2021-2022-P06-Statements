@@ -43,16 +43,24 @@ La [conjetura de Collatz](https://es.wikipedia.org/wiki/Conjetura_de_Collatz)
 afirma que, al partir desde cualquier número, la secuencia siempre llegará a 1. 
 A pesar de ser un resultado a simple vista muy simple, no se ha podido demostrar si es cierta o no.
 
-Usando ordenadores, se ha verificado que la sucesión efectivamente llega a 1 partiendo desde cualquier número natural menor que 258.
+Usando ordenadores, se ha verificado que la sucesión efectivamente llega a 1 partiendo desde cualquier número natural menor que 2<sup>58</sup>.
 
-Desarrolle un programa que entregue la secuencia de Collatz de un número entero:
+Desarrolle un programa `collatz.cc` que entregue la secuencia de Collatz de un número entero.
+Se muestran a continuación los resultados que debería entregar el programa para algunos valores del número N
+de entrada.
+Este valor (número de entrada) en su programa deberá estar representado por la constante `kInitialValue`.
 
+```
 n: 18
 18 9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+```
+```
 n: 19
 19 58 29 88 44 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+```
 n: 20
 20 10 5 16 8 4 2 1
+```
 
 ### Referencias
 * [Tutorial Fundamentos de Informática](http://www.minidosis.org/#/cursos/FI)
