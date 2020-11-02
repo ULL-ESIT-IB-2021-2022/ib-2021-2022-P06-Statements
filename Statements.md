@@ -21,14 +21,19 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 ### Trabajo previo
 1. Estudie en el tutorial "Fundamentos de Informática" todo el material correspondiente a los capítulos 2, 3,
 4 y 5:
-[Expresiones](http://www.minidosis.org/#/temas/Cpp.Expresiones)
-[Expresiones Booleanas](http://www.minidosis.org/#/temas/Cpp.ExpresionesBooleanas)
+[Expresiones](http://www.minidosis.org/#/temas/Cpp.Expresiones),
+[Expresiones Booleanas](http://www.minidosis.org/#/temas/Cpp.ExpresionesBooleanas),
 [Alternativas](http://www.minidosis.org/#/temas/Cpp.Alternativas)
+e
 [Iteraciones](http://www.minidosis.org/#/temas/Cpp.Iteraciones)
 
 Recuerde que todos los identificadores que utilice en su programa (constantes, variables, etc.) deberán ser
 siempre significativos. No utilice nunca identificadores de una única letra, tal vez con la excepción de la
 variable que utilice para recorrer un bucle.
+
+Recuerde asimismo que antes de su ejecución, todos los programas que desarrolle, deben imprimir en pantalla un
+mensaje indicando la finalidad del programa así como la información que precisará del usuario para su correcta
+ejecución.
 
 ### Ejercicios 
 1. Escriba un programa `divisors.cc` que solicite al usuario un número e imprima en pantalla todos los
@@ -40,8 +45,8 @@ Introduzca un número: 200
 
 2. Desarrolle un programa `longest_shortest.cc` que se comporte como se describe a continuación:
 
-* En primer lugar, el usuario introduce un número entero, `n` que indica cuántas palabras introducirá a continuación;
-* A continuación el usuario introduce `n` palabras
+* En primer lugar, se solicita al usuario que introduzca un número entero, `n` que indicará cuántas palabras introducirá a continuación;
+* A continuación el usuario introducirá `n` palabras
 
 La salida del programa debe mostrar en pantalla la palabra más larga y la más corta introducidas por el usuario.
 El siguiente sería un ejemplo de la ejecución del programa:
