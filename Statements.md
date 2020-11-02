@@ -26,13 +26,46 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 [Alternativas](http://www.minidosis.org/#/temas/Cpp.Alternativas)
 [Iteraciones](http://www.minidosis.org/#/temas/Cpp.Iteraciones)
 
+Recuerde que todos los identificadores que utilice en su programa (constantes, variables, etc.) deberán ser
+siempre significativos. No utilice nunca identificadores de una única letra, tal vez con la excepción de la
+variable que utilice para recorrer un bucle.
 
 ### Ejercicios 
-1. 
+1. Escriba un programa `divisors.cc` que solicite al usuario un número e imprima en pantalla todos los
+divisores del número introducido:
+```
+Introduzca un número: 200
+1 2 4 5 8 10 20 25 40 50 100 200
+```
 
-2. 
+2. Desarrolle un programa `longest_shortest.cc` que se comporte como se describe a continuación:
 
-3. 
+* En primer lugar, el usuario introduce un número entero, `n` que indica cuántas palabras introducirá a continuación;
+* A continuación el usuario introduce `n` palabras
+
+La salida del programa debe mostrar en pantalla la palabra más larga y la más corta introducidas por el usuario.
+El siguiente sería un ejemplo de la ejecución del programa:
+
+```
+Cantidad de palabras: 5
+Palabra 1: negro
+Palabra 2: amarillo
+Palabra 3: naranjo
+Palabra 4: azul
+Palabra 5: blanco
+La palabra mas larga es amarillo
+La palabra mas corta es azul
+```
+Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase
+`std::string`.
+Puede Ud. estudiarlos en [esta referencia](http://www.cplusplus.com/reference/string/string/) (por ejemplo).
+En particular el método [length](http://www.cplusplus.com/reference/string/string/length/) devuelve la longitud de una cadena.
+
+3. Realice un programa `statistics.cc` que declare un `std::vector` de tamaño `kVectorSize` y lo inicialice
+con valores aleatorios en el rango [0.0, 10.0]. 
+El programa imprimirá en pantalla el valor medio de los datos del vector así como los valores mínimo y máximo.
+Para generar números aleatorios en C++ consulte la función `std::rand` por ejemplo en 
+[esta referencia](https://en.cppreference.com/w/cpp/numeric/random/rand).
 
 4. La secuencia de Collatz de un número entero se construye de la siguiente forma:
 * si el número es par, se lo divide por dos;
@@ -51,19 +84,22 @@ de entrada.
 Este valor (número de entrada) en su programa deberá estar representado por la constante `kInitialValue`.
 
 ```
-n: 18
+kInitialValue: 18
 18 9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 ```
 ```
-n: 19
+kInitialValue: 19
 19 58 29 88 44 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 ```
 ```
-n: 20
+kInitialValue: 20
 20 10 5 16 8 4 2 1
 ```
 
 ### Referencias
 * [Tutorial Fundamentos de Informática](http://www.minidosis.org/#/cursos/FI)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+* [La función std::rand](https://en.cppreference.com/w/cpp/numeric/random/rand)
+* [La conjetura de Collatz](https://es.wikipedia.org/wiki/Conjetura_de_Collatz) 
+* [La clase std::string](http://www.cplusplus.com/reference/string/string/)
 
