@@ -1,14 +1,4 @@
-
-### Rúbrica de evaluacion de esta práctica
-Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
-que se tendrán en cuenta a la hora de evaluar esta práctica:
-* El alumnado ha de acreditar conocer los conceptos expuestos en el material de referencia de esta práctica
-* Ha de acreditar que es capaz de realizar programas simples como los propuestos en estos ejercicios 
-
-
-
-===============
-# Práctica 05. Sentencias en C++. Declaraciones, Expresiones, Asignaciones, Sentencias de control de flujo. 
+# Práctica 06. Sentencias en C++. Declaraciones, Expresiones, Asignaciones, Sentencias de control de flujo. 
 
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
@@ -20,7 +10,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * El alumnado ha de acreditar conocer los conceptos expuestos en el material de referencia de esta práctica.
 * El alumnado ha de acreditar que ha realizado todos los ejercicios propuestos, así como ser capaz de desarrollar otros similares.
 * Ha de acreditar que es capaz de escribir un fichero Makefile para automatizar el proceso de compilación de sus programas.
-* El código que escriba ha de estar escrito de acuerdo a los estándares definidos en la Guía de Estilo de Google para C++
+* El código que escriba ha de estar escrito de acuerdo a los estándares definidos en la Guía de Estilo de Google para C++.
 * Todos los identificadores que utilice en su programa (constantes, variables, etc.) deberán ser
   siempre significativos. No utilice nunca identificadores de una única letra, tal vez con la excepción de las
   variables que utilice para iterar en un bucle.
