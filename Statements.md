@@ -18,7 +18,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
   mensaje indicando la finalidad del programa así como la información que precisará del usuario para su correcta ejecución.
 
 ### Trabajo previo
-1. Estudie en el tutorial "Fundamentos de Informática" todo el material correspondiente a los capítulos 2, 3,
+Estudie en el tutorial "Fundamentos de Informática" todo el material correspondiente a los capítulos 2, 3,
 4 y 5:
 [Expresiones](http://www.minidosis.org/#/temas/Cpp.Expresiones),
 [Expresiones Booleanas](http://www.minidosis.org/#/temas/Cpp.ExpresionesBooleanas),
@@ -27,7 +27,7 @@ e
 [Iteraciones](http://www.minidosis.org/#/temas/Cpp.Iteraciones)
 
 ### Ejercicios 
-1. Escriba un programa `divisors.cc` que solicite al usuario un número e imprima en pantalla todos los
+1. Escriba un programa `dividers.cc` que solicite al usuario un número e imprima en pantalla todos los
 divisores del número introducido:
 ```
 Introduzca un número: 200
