@@ -1,22 +1,31 @@
-# Práctica 05. Sentencias en C++. Declaraciones, Expresiones, Asignaciones, Sentencias de control de flujo. 
-
-### Objetivos
-Los objetivos de esta práctica son que el alumnado:
-
-* Desarrolle programas sencillos en C++ que utilicen los diferentes tipos de sentencias estudiadas
-* Conozca los tipos básicos de datos en C++, así como los fundamentos de su representación en memoria
-* Sea capaz de automatizar el proceso de compilación utilizando la herramienta `make`
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
-* El alumnado ha de acreditar que es capaz de realizar programas simples en C++ similares a los que se
-  proponen en este documento.
-* El alumnado ha de acreditar que ha realizado todos los ejercicios propuestos, así como ser capaz de
-  desarrollar otros similares
-* Ha de acreditar que es capaz de escribir un fichero Makefile para automatizar el proceso de compilación de
-  sus programas
 * El alumnado ha de acreditar conocer los conceptos expuestos en el material de referencia de esta práctica
+* Ha de acreditar que es capaz de realizar programas simples como los propuestos en estos ejercicios 
+
+
+
+===============
+# Práctica 05. Sentencias en C++. Declaraciones, Expresiones, Asignaciones, Sentencias de control de flujo. 
+
+### Objetivos
+Los objetivos de esta práctica son que el alumnado:
+* Desarrolle programas sencillos en C++ que utilicen los diferentes tipos de sentencias estudiadas
+
+### Rúbrica de evaluacion de esta práctica
+Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
+que se tendrán en cuenta a la hora de evaluar esta práctica:
+* El alumnado ha de acreditar conocer los conceptos expuestos en el material de referencia de esta práctica.
+* El alumnado ha de acreditar que ha realizado todos los ejercicios propuestos, así como ser capaz de desarrollar otros similares.
+* Ha de acreditar que es capaz de escribir un fichero Makefile para automatizar el proceso de compilación de sus programas.
+* El código que escriba ha de estar escrito de acuerdo a los estándares definidos en la Guía de Estilo de Google para C++
+* Todos los identificadores que utilice en su programa (constantes, variables, etc.) deberán ser
+  siempre significativos. No utilice nunca identificadores de una única letra, tal vez con la excepción de las
+  variables que utilice para iterar en un bucle.
+* Antes de su ejecución, todos los programas que desarrolle, deben imprimir en pantalla un
+  mensaje indicando la finalidad del programa así como la información que precisará del usuario para su correcta ejecución.
 
 ### Trabajo previo
 1. Estudie en el tutorial "Fundamentos de Informática" todo el material correspondiente a los capítulos 2, 3,
@@ -26,14 +35,6 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 [Alternativas](http://www.minidosis.org/#/temas/Cpp.Alternativas)
 e
 [Iteraciones](http://www.minidosis.org/#/temas/Cpp.Iteraciones)
-
-Recuerde que todos los identificadores que utilice en su programa (constantes, variables, etc.) deberán ser
-siempre significativos. No utilice nunca identificadores de una única letra, tal vez con la excepción de la
-variable que utilice para recorrer un bucle.
-
-Recuerde asimismo que antes de su ejecución, todos los programas que desarrolle, deben imprimir en pantalla un
-mensaje indicando la finalidad del programa así como la información que precisará del usuario para su correcta
-ejecución.
 
 ### Ejercicios 
 1. Escriba un programa `divisors.cc` que solicite al usuario un número e imprima en pantalla todos los
