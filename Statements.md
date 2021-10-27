@@ -36,6 +36,18 @@ Introduzca un número: 200
 1 2 4 5 8 10 20 25 40 50 100 200
 ```
 
+2. Escriba un programa que lea un número natural e imprima en pantalla un "cuadrado hecho de asteriscos" del tamaño indicado. 
+Por ejemplo, este es el cuadrado de 5 asteriscos:
+```
+*****
+*****
+*****
+*****
+*****
+```
+3. Escriba un programa que lea un número natural e imprima como salida la suma de los dígitos del número en cuestión.
+Por ejemplo, si el número introducido fuera el 2021, la salida debería ser 5
+
 2. Desarrolle un programa `longest_shortest.cc` que se comporte como se describe a continuación:
 
 * En primer lugar, se solicita al usuario que introduzca un número entero, `n` que indicará cuántas palabras introducirá a continuación;
