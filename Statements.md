@@ -1,5 +1,7 @@
 # Práctica 06. Sentencias en C++. Declaraciones, Expresiones, Asignaciones, Sentencias de control de flujo. 
 
+# Factor de ponderación: 5
+
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
 * Desarrolle programas sencillos en C++ que utilicen los diferentes tipos de sentencias estudiadas
