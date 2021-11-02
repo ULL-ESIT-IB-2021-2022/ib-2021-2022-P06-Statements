@@ -63,10 +63,8 @@ Palabra 5: blanco
 La palabra mas larga es amarillo
 La palabra mas corta es azul
 ```
-    Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase
-`std::string`.
-Puede Ud. estudiarlos en [esta referencia](http://www.cplusplus.com/reference/string/string/) (por ejemplo).
-En particular el método [length](http://www.cplusplus.com/reference/string/string/length/) devuelve la longitud de una cadena.
+
+    Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase `std::string`. Puede Ud. estudiarlos en [esta referencia](http://www.cplusplus.com/reference/string/string/) (por ejemplo). En particular el método [length](http://www.cplusplus.com/reference/string/string/length/) devuelve la longitud de una cadena.
 
 3. Realice un programa `statistics.cc` que declare un `std::vector` de tamaño `kVectorSize` y lo inicialice
 con valores aleatorios en el rango [0.0, 10.0]. 
@@ -79,16 +77,11 @@ Para generar números aleatorios en C++ consulte la función `std::rand` por eje
 * si es impar, se le multiplica tres y se le suma uno;
 * la sucesión termina al llegar a uno
 
-La [conjetura de Collatz](https://es.wikipedia.org/wiki/Conjetura_de_Collatz) 
-afirma que, al partir desde cualquier número, la secuencia siempre llegará a 1. 
-A pesar de ser un resultado a simple vista muy simple, no se ha podido demostrar si es cierta o no.
+    La [conjetura de Collatz](https://es.wikipedia.org/wiki/Conjetura_de_Collatz) afirma que, al partir desde cualquier número, la secuencia siempre llegará a 1. A pesar de ser un resultado a simple vista muy simple, no se ha podido demostrar si es cierta o no.
 
-Usando ordenadores, se ha verificado que la sucesión efectivamente llega a 1 partiendo desde cualquier número natural menor que 2<sup>58</sup>.
+    Usando ordenadores, se ha verificado que la sucesión efectivamente llega a 1 partiendo desde cualquier número natural menor que 2<sup>58</sup>.
 
-Desarrolle un programa `collatz.cc` que entregue la secuencia de Collatz de un número entero.
-Se muestran a continuación los resultados que debería entregar el programa para algunos valores del número N
-de entrada.
-Este valor (número de entrada) en su programa deberá estar representado por la constante `kInitialValue`.
+    Desarrolle un programa `collatz.cc` que entregue la secuencia de Collatz de un número entero. Se muestran a continuación los resultados que debería entregar el programa para algunos valores del número N de entrada. Este valor (número de entrada) en su programa deberá estar representado por la constante `kInitialValue`.
 
 ```
 kInitialValue: 18
