@@ -36,6 +36,26 @@ Introduzca un número: 200
 1 2 4 5 8 10 20 25 40 50 100 200
 ```
 
+2. Escribe un programa `temperatures.cc` que lea un número entero que represente una temperatura dada en grados centígrados, 
+y que diga si hace calor, si hace frío o si está bien. Suponga que hace calor si la temperatura es superior a 30 grados, 
+que hace frío si la temperatura es inferior a 10 grados, y que se está bien en otro caso. 
+Además, el programa ha de advertir si con la temperatura dada el agua herviría, o se congelaría.
+Asuma que el agua hierve a 100 o más grados, y que el agua se congela a 0 o menos grados.
+Se muestran a continuación algunos ejemplos de entrada y salida que se espera del programa:
+```
+Input         Output
+16              It's ok
+-5              it's cold
+                water would freeze
+99              it's hot
+100             it's hot
+                water would boil
+```
+
+
+
+Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
+
 2. Escriba un programa que lea un número natural e imprima en pantalla un "cuadrado hecho de asteriscos" del tamaño indicado. 
 Por ejemplo, este es el cuadrado de 5 asteriscos:
 ```
@@ -48,7 +68,7 @@ Por ejemplo, este es el cuadrado de 5 asteriscos:
 3. Escriba un programa que lea un número natural e imprima como salida la suma de los dígitos del número en cuestión.
 Por ejemplo, si el número introducido fuera el 2021, la salida debería ser 5
 
-2. Desarrolle un programa `longest_shortest.cc` que se comporte como se describe a continuación:
+4. Desarrolle un programa `longest_shortest.cc` que se comporte como se describe a continuación:
 * En primer lugar, se solicita al usuario que introduzca un número entero, `n` que indicará cuántas palabras introducirá a continuación;
 * A continuación el usuario introducirá `n` palabras
 
@@ -66,13 +86,13 @@ La palabra mas corta es azul
 
 Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase `std::string`. Puede Ud. estudiarlos en [esta referencia](http://www.cplusplus.com/reference/string/string/) (por ejemplo). En particular el método [length](http://www.cplusplus.com/reference/string/string/length/) devuelve la longitud de una cadena.
 
-3. Realice un programa `statistics.cc` que declare un `std::vector` de tamaño `kVectorSize` y lo inicialice
+5. Realice un programa `statistics.cc` que declare un `std::vector` de tamaño `kVectorSize` y lo inicialice
 con valores aleatorios en el rango [0.0, 10.0]. 
 El programa imprimirá en pantalla el valor medio de los datos del vector así como los valores mínimo y máximo.
 Para generar números aleatorios en C++ consulte la función `std::rand` por ejemplo en 
 [esta referencia](https://en.cppreference.com/w/cpp/numeric/random/rand).
 
-4. La secuencia de Collatz de un número entero se construye de la siguiente forma:
+6. La secuencia de Collatz de un número entero se construye de la siguiente forma:
 * si el número es par, se lo divide por dos;
 * si es impar, se le multiplica tres y se le suma uno;
 * la sucesión termina al llegar a uno
