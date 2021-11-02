@@ -6,6 +6,7 @@
 Los objetivos de esta práctica son que el alumnado:
 * Profundice en el estudio de los diferentes tipos de expresiones: aritméticas, booleanas, etc.
 * Desarrolle programas sencillos en C++ que utilicen los diferentes tipos de sentencias estudiadas.
+* Comience a desarrollar y utilizar funciones sencillas en sus programas.
 * Ponga en práctica las recomendaciones de la Guía de estilo de Google para C++.
 * Sea capaz de automatizar el proceso de compilación utilizando la herramienta make.
 
@@ -31,6 +32,8 @@ Estudie en el tutorial "Fundamentos de Informática" todo el material correspond
 [Alternativas](http://www.minidosis.org/#/temas/Cpp.Alternativas)
 e
 [Iteraciones](http://www.minidosis.org/#/temas/Cpp.Iteraciones)
+
+En todos los ejercicios que realice, comience a utilizar funciones para el desarrollo de sus programas.
 
 Realice cada ejercicio en un subdirectorio distinto, todos hijos de un subdirectorio `p06_statements`
 e incluya con cada ejercicio un fichero `Makefile` que permita la compilación automática del programa correspondiente
