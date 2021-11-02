@@ -49,13 +49,10 @@ Por ejemplo, este es el cuadrado de 5 asteriscos:
 Por ejemplo, si el número introducido fuera el 2021, la salida debería ser 5
 
 2. Desarrolle un programa `longest_shortest.cc` que se comporte como se describe a continuación:
-
 * En primer lugar, se solicita al usuario que introduzca un número entero, `n` que indicará cuántas palabras introducirá a continuación;
 * A continuación el usuario introducirá `n` palabras
 
-La salida del programa debe mostrar en pantalla la palabra más larga y la más corta introducidas por el usuario.
-El siguiente sería un ejemplo de la ejecución del programa:
-
+    La salida del programa debe mostrar en pantalla la palabra más larga y la más corta introducidas por el usuario. El siguiente sería un ejemplo de la ejecución del programa:
 ```
 Cantidad de palabras: 5
 Palabra 1: negro
@@ -66,7 +63,7 @@ Palabra 5: blanco
 La palabra mas larga es amarillo
 La palabra mas corta es azul
 ```
-Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase
+    Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase
 `std::string`.
 Puede Ud. estudiarlos en [esta referencia](http://www.cplusplus.com/reference/string/string/) (por ejemplo).
 En particular el método [length](http://www.cplusplus.com/reference/string/string/length/) devuelve la longitud de una cadena.
