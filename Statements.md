@@ -32,6 +32,18 @@ Estudie en el tutorial "Fundamentos de Informática" todo el material correspond
 e
 [Iteraciones](http://www.minidosis.org/#/temas/Cpp.Iteraciones)
 
+Realice cada ejercicio en un subdirectorio distinto, todos hijos de un subdirectorio `p06_statements`
+e incluya con cada ejercicio un fichero `Makefile` que permita la compilación automática del programa correspondiente
+mediante la ejecución del comando
+```
+$ make
+```
+El `Makefile` ha de contener una regla `clean` que posibilite que el comando
+```
+$ make clean
+```
+borre del correspondiente directorio todos los ficheros ejecutables y `*.o`.
+
 ### Ejercicios 
 1. Escriba un programa `dividers.cc` que solicite al usuario un número e imprima en pantalla todos los
 divisores del número introducido:
