@@ -52,9 +52,19 @@ Input         Output
                 water would boil
 ```
 
+3. Escriba un programa que tome como entrada un número natural e imprima el resultado de la suma de sus tres últimos dígitos.
+
+4. Escriba un programa que, dado un número natural `n` imprima el el número de horas, minutos y segundos representados por `n`.
+La salida del programa han de ser tres números naturales, `h` `m` y `s` tales que `n=3600h+60m+s` siendo `m<60` y `s<60`. 
+Se muestran a continuación algunos ejemplos de entrada y salida que se espera del programa:
+```
+Input         Output
+3661             1  1  1
+0                0  0  0
+76234           21 10 34
+```
 
 
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
 
 2. Escriba un programa que lea un número natural e imprima en pantalla un "cuadrado hecho de asteriscos" del tamaño indicado. 
 Por ejemplo, este es el cuadrado de 5 asteriscos:
