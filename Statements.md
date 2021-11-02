@@ -64,7 +64,7 @@ La palabra mas larga es amarillo
 La palabra mas corta es azul
 ```
 
-    Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase `std::string`. Puede Ud. estudiarlos en [esta referencia](http://www.cplusplus.com/reference/string/string/) (por ejemplo). En particular el método [length](http://www.cplusplus.com/reference/string/string/length/) devuelve la longitud de una cadena.
+Para realizar este programa estudie los métodos (funciones) disponibles para los objetos de la clase `std::string`. Puede Ud. estudiarlos en [esta referencia](http://www.cplusplus.com/reference/string/string/) (por ejemplo). En particular el método [length](http://www.cplusplus.com/reference/string/string/length/) devuelve la longitud de una cadena.
 
 3. Realice un programa `statistics.cc` que declare un `std::vector` de tamaño `kVectorSize` y lo inicialice
 con valores aleatorios en el rango [0.0, 10.0]. 
