@@ -4,15 +4,19 @@
 
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
-* Desarrolle programas sencillos en C++ que utilicen los diferentes tipos de sentencias estudiadas
+* Profundice en el estudio de los diferentes tipos de expresiones: aritméticas, booleanas, etc.
+* Desarrolle programas sencillos en C++ que utilicen los diferentes tipos de sentencias estudiadas.
+* Ponga en práctica las recomendaciones de la Guía de estilo de Google para C++.
+* Sea capaz de automatizar el proceso de compilación utilizando la herramienta make.
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
-que se tendrán en cuenta a la hora de evaluar esta práctica:
-* El alumnado ha de acreditar conocer los conceptos expuestos en el material de referencia de esta práctica.
-* El alumnado ha de acreditar que ha realizado todos los ejercicios propuestos, así como ser capaz de desarrollar otros similares.
+que se tendrán en cuenta a la hora de evaluar esta práctica.
+El alumnado ha de acreditar que:
+* Conoce los conceptos expuestos en el material de referencia de esta práctica.
+* Ha realizado todos los ejercicios propuestos, así como que es capaz de desarrollar otros similares.
 * Ha de acreditar que es capaz de escribir un fichero Makefile para automatizar el proceso de compilación de sus programas.
-* El código que escriba ha de estar escrito de acuerdo a los estándares definidos en la Guía de Estilo de Google para C++.
+* El código desarrollado está escrito de acuerdo a los estándares definidos en la Guía de Estilo de Google para C++.
 * Todos los identificadores que utilice en su programa (constantes, variables, etc.) deberán ser
   siempre significativos. No utilice nunca identificadores de una única letra, tal vez con la excepción de las
   variables que utilice para iterar en un bucle.
